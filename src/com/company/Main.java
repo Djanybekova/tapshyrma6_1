@@ -1,0 +1,16 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int k=1,m;
+        for(int i = 1; i<=n; i++) {
+            k=k*i;
+
+        } System.out.println(n+"!"+"="+k);
+    }
+}
